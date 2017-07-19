@@ -1,9 +1,14 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4637CB88-C199-485C-8C62-2AD558D6975C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "verbs.shared", "verbs.shared\verbs.shared.csproj", "{D7352A4D-833C-4168-BEEC-8AE305113834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "verbs.shared", "verbs.shared\verbs.shared.csproj", "{D7352A4D-833C-4168-BEEC-8AE305113834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BE8EB05D-92F3-4131-BB9B-27410840FDA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "verbs.shared.tests", "tests\verbs.shared.tests\verbs.shared.tests.csproj", "{B162C8DD-01EF-4354-AF10-58E435070152}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +20,16 @@ Global
 		{D7352A4D-833C-4168-BEEC-8AE305113834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7352A4D-833C-4168-BEEC-8AE305113834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7352A4D-833C-4168-BEEC-8AE305113834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B162C8DD-01EF-4354-AF10-58E435070152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B162C8DD-01EF-4354-AF10-58E435070152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B162C8DD-01EF-4354-AF10-58E435070152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B162C8DD-01EF-4354-AF10-58E435070152}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D7352A4D-833C-4168-BEEC-8AE305113834} = {4637CB88-C199-485C-8C62-2AD558D6975C}
+		{B162C8DD-01EF-4354-AF10-58E435070152} = {BE8EB05D-92F3-4131-BB9B-27410840FDA5}
 	EndGlobalSection
 EndGlobal

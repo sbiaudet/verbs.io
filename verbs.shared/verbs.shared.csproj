@@ -1,12 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Analyzers\" />
-    <Folder Include="Analyzers\French\" />
+    <Compile Remove="Analyzers\**" />
+    <EmbeddedResource Remove="Analyzers\**" />
+    <None Remove="Analyzers\**" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Sprache" Version="2.1.0" />

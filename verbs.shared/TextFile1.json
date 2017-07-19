@@ -1,0 +1,28 @@
+﻿{
+  "grammar": [
+    {
+      "pattern": "aller",
+      "group": "third"
+    },
+    {
+      "pattern": "er$",
+      "group": "first"
+    },
+    {
+      "pattern": "ir$",
+      "group": "second"
+    },
+    {
+      "pattern": "dormir$",
+      "group": "third"
+    },
+    {
+      "pattern": "sentir",
+      "pattern": "fuir",
+      "pattern": "-partir",
+
+      Conjugator.Pattern("-er",
+      "-cer",
+      x=> { x.tense }).Pattern("-cer").Tense("present", x=> x.first = (t) => t.pronoun ).Present().FirstPersonSingular().SecondPersonSingular;"
+
+        conj.Conjugate()
